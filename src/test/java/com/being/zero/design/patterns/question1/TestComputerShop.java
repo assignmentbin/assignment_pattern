@@ -16,14 +16,14 @@ public class TestComputerShop {
     public void testAssembleForStudent(){
         ComputerShop shop = new ComputerShop();
         Computer computer = shop.assembleComputer(new StudentConfig());
-        Assert.assertEquals(STUDENT, computer);
+        Assert.assertEquals(STUDENT, computer.toString());
     }
 
     @Test
     public void testAssembleForDeveloper(){
         ComputerShop shop = new ComputerShop();
         Computer computer = shop.assembleComputer(new StudentConfig());
-        Assert.assertEquals(STUDENT, computer);
+        Assert.assertEquals(STUDENT, computer.toString());
     }
 
     @Test

@@ -14,6 +14,6 @@ public class TestClient {
         Client client = new Client();
         String result = client.getTimings(new Indigo(), new SpiceJet());
 
-        Assert.assertEquals("Indigo: 7.30, 7.45, 08.00, 12.00 ; SpiceJet: 10.00, 11.00, 8.00, 9.00", result);
+        Assert.assertEquals("Indigo: 7.30, 7.45, 08.00, 12.00 ; SpiceJet: 10.00, 11.00, 8.00, 9.00", result.trim());
     }
 }
